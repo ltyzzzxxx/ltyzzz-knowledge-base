@@ -7,7 +7,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "Tycho's Knowledge Base",
+  title: "Tycho Knowledge Base",
   description: "Tycho的个人知识库～",
 
   theme,

@@ -3,32 +3,32 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   { 
     text: "入站必看", 
-    icon: "java", 
+    icon: "eye", 
     link: "/home.md" 
   },
   {
     text: "问答自查",
-    icon: "github",
+    icon: "question",
     link: "/qa-column",
   },
   {
     text: "学习笔记",
-    icon: "book",
+    icon: "blog",
     link: "/learning-notes"
   },
   {
     text: "书单推荐",
-    icon: "book",
+    icon: "list",
     link: "/book-recommendations"
   },
   {
     text: "经验分享",
-    icon: "book",
+    icon: "share",
     link: "/experiences"
   },
   {
     text: "每日一学",
-    icon: "book",
+    icon: "clipboard-check",
     link: "/learning-everyday"
   },
   {
