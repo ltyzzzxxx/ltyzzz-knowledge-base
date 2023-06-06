@@ -25,5 +25,15 @@ export default navbar([
     text: "经验分享",
     icon: "book",
     link: "/experiences"
+  },
+  {
+    text: "每日一学",
+    icon: "book",
+    link: "/learning-everyday"
+  },
+  {
+    text: "每月一读",
+    icon: "book",
+    link: "/reading-everyday"
   }
 ]);
