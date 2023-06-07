@@ -49,6 +49,14 @@ export default sidebar({
       link: "message-queue"
     }
   ],
+  "/experiences/": [
+    {
+      text: "面试经验分享",
+      icon: "book",
+      collapsible: true,
+      link: "interview-experience"
+    },
+  ],
   "/": [
     {
       text: "入站必看",

@@ -38,4 +38,10 @@ toc: true
 
 # 联系我
 
+::: tip 联系方式
 
+- **📮 Email**：ltyzzz2000@163.com
+
+- **[Github](https://github.com/ltyzzzxxx)**：
+
+:::
