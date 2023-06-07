@@ -49,4 +49,11 @@ export default sidebar({
       link: "message-queue"
     }
   ],
+  "/": [
+    {
+      text: "入站必看",
+      icon: "eye",
+      link: "home"
+    }
+  ]
 })

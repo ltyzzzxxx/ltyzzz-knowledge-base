@@ -14,7 +14,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "https://github.com/ltyzzzxxx/tycho-knowledge-base",
 
   docsDir: "src",
 
@@ -30,7 +30,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "ltyzzz的知识库～",
+  footer: "Tycho知识库～",
   displayFooter: true,
 
   toc: true,
