@@ -12,6 +12,8 @@ export default defineUserConfig({
 
   theme,
 
+  head: [['link', { rel: 'icon', href: '/logo.jpeg' }]],
+
   plugins: [
     searchProPlugin({
       // 索引全部内容
