@@ -27,6 +27,15 @@ export default navbar([
     link: "/experiences"
   },
   {
+    text: "🔥 项目实战",
+    children: [
+      {
+        text: "GPT Terminal",
+        link: "/projects/gpt-terminal"
+      },
+    ]
+  },
+  {
     text: "每日一学",
     icon: "clipboard-check",
     link: "/learning-everyday"
@@ -34,6 +43,6 @@ export default navbar([
   {
     text: "每月一读",
     icon: "book",
-    link: "/reading-everyday"
+    link: "/reading-everymonth"
   }
 ]);
