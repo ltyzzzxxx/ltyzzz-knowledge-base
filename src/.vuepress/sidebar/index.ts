@@ -88,6 +88,16 @@ export default sidebar({
       collapsible: true,
       link: "gpt-terminal-5",
     },
+    {
+      text: "6. 开发一个 ChatGPT 真的只是当 “接口侠“ 吗？GPT Terminal 细节分享！",
+      collapsible: true,
+      link: "gpt-terminal-6",
+    },
+    {
+      text: "7. 如何借助于 OpenAI 以命令的方式在 GPT 终端上画一只 “坤”？",
+      collapsible: true,
+      link: "gpt-terminal-7",
+    },
   ],
   "/learning-everyday": [
     {
