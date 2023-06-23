@@ -7,8 +7,8 @@ heroImage: /logo.jpeg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Tycho Knowledge Base
-tagline: 与大家一同探索无限可能。
+heroText: 周三不 Coding - 知识库
+tagline: 公众号：周三不Coding
 actions:
   - text: 入站必看 💡
     link: ./home.html
@@ -18,7 +18,7 @@ actions:
     link: ./projects/gpt-terminal/
 
 highlights:
-  - header: Stay Hungury, Stay Foolish.
+  - header: 与你一同探索无限可能。
     description: 特别鸣谢：小林Coding, Java Guide, 编程导航
     bgImageStyle:
       background-repeat: repeat
@@ -55,7 +55,7 @@ highlights:
         link: /experiences
 
 copyright: false
-footer: <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2023-present ltyzzz
+footer: Apache 协议, 版权所有 © 2023-present 周三不Coding
 ---
 
 ## 实战项目

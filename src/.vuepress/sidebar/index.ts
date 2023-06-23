@@ -3,16 +3,33 @@ import { sidebar } from "vuepress-theme-hope";
 export default sidebar({
   "/qa-column/": [
     {
-      text: "📖 MySQL问答",
+      text: "📖 MySQL 问答",
       collapsible: true,
       prefix: "mysql/",
-      children: [],
+      children: [
+        "MySQL 基础",
+        "MySQL 索引",
+        "MySQL 事务",
+        "MySQL 锁",
+        "MySQL 日志",
+        "MySQL 应用"
+      ],
     },
     {
-      text: "📖 Redis问答",
+      text: "📖 Redis 问答",
       collapsible: true,
       prefix: "redis/",
-      children: ["1", "2", "3", "4"],
+      children: [
+        "Redis 基础应用", 
+        "Redis 线程模型", 
+        "Redis 内存管理", 
+        "Redis 持久化",
+        "Redis 缓存常见问题",
+        "Redis 性能评估",
+        "Redis 事务",
+        "Redis 集群",
+        "Redis 应用",
+      ],
     },
     {
       text: "📖 操作系统问答",
