@@ -28,7 +28,7 @@ export default defineUserConfig({
       {
         name: "keywords",
         content:
-          "八股文, 学习, 工作, 项目, ChatGPT, OpenAI, 面试, 周三不Coding",
+          "周三不Coding, 知识库, Java, 八股文, 学习, 工作, 项目, ChatGPT, OpenAI, 面试",
       },
     ],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
