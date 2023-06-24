@@ -5,13 +5,27 @@ title: MySQL 基础
 ## 问题清单
 
 ::: tip Questions
-1.   **Redis 的内存淘汰机制是什么？**
+1.   **执行一条 select 语句，经历了哪些流程？**
 
-2.   **LRU 与 LFU 是如何实现的？**
+2.   **MySQL 空闲连接会一直被占用吗？**
 
-3.   **Redis 的过期删除策略是什么？**
+3.   **MySQ L的连接数有限制吗？**
 
-4.   **定期删除的具体实现流程是什么？**
+4.   **MySQL 执行期与存储引擎交互的具体操作是怎么样的？**
+
+5.   **MySQL 数据存放在哪里？**
+
+6.   **MySQL 表空间的文件结构是怎么样的？**
+
+7.   **InnoDB 行 Row 格式有哪些？**
+
+8.   **Compact 格式是什么样子的？**
+
+9.   **为什么变长字段列表和 Null 值列表逆向存储？**
+
+10.   **行溢出后，MySQL 如何处理？**
+
+11.   **MySQL 的 InnoDB 与 MyISAM 引擎优缺点对比？**
 ::: 
 
 ## 问题回答
@@ -66,7 +80,7 @@ title: MySQL 基础
   也可以选择手动切断连接
 :::
 
-3.   **MySQL的连接数有限制吗？**
+3.   **MySQL 的连接数有限制吗？**
 ::: info Answer
   有限制的，超过 `max_connection` 则会拒绝之后的连接请求
 
@@ -79,7 +93,7 @@ title: MySQL 基础
   -   客户端主动重置连接：主动调用该函数 `mysql_reset_connection`
 :::
 
-4.   **MySQL执行期与存储引擎交互的具体操作是怎么样的？**
+4.   **MySQL 执行期与存储引擎交互的具体操作是怎么样的？**
 ::: info Answer
   -   主键索引查询
 
@@ -128,7 +142,7 @@ title: MySQL 基础
       -   如此往复，直到存储引擎把表中的所有记录读完。
 :::
 
-5.   **MySQL数据存放在哪里？**
+5.   **MySQL 数据存放在哪里？**
 ::: info Answer
   存放在当前表对应的数据库同名文件夹中，里面有三个文件
 
@@ -139,7 +153,7 @@ title: MySQL 基础
   -   xxx.ibd 存储当前表的表数据
 :::
 
-6.   **MySQL表空间的文件结构是怎么样的？**
+6.   **MySQL 表空间的文件结构是怎么样的？**
 ::: info Answer
   表空间由段 `Segment`、区 `Extent`、页 `Page`、行 `Row` 组成
 
@@ -160,14 +174,14 @@ title: MySQL 基础
       -   回滚段：存放的是回滚数据的区的集合
 :::
 
-7.   **InnoDB行Row格式有哪些？**
+7.   **InnoDB 行 Row 格式有哪些？**
 ::: info Answer
   Redundant、Compact、Dynamic、Compressed
 
   Redundant 基本没人使用，Dynamic 为默认格式
 :::
 
-8.   **Compact格式是什么样子的？**
+8.   **Compact 格式是什么样子的？**
 ::: info Answer
   `Compact` 行分为记录的额外信息与记录的真实数据两个部分
 
@@ -200,19 +214,19 @@ title: MySQL 基础
       -   roll_pointer：记录上个版本的指针，必须得有且占用 7 字节
 :::
 
-9.   **为什么变长字段列表和Null值列表逆向存储？**
+9.   **为什么变长字段列表和 Null 值列表逆向存储？**
 ::: info Answer
   记录头信息中存在一个字段为next_record，指向下一条记录的记录头信息与真实数据之间的位置。
 
   这样的好处就是当跳转到下一条记录时，向左读就是记录信息，向右读就是真实数据
 :::
 
-10.   **行溢出后，MySQL如何处理？**
+10.   **行溢出后，MySQL 如何处理？**
 ::: info Answer
   发生行溢出后，多余的数据会存到另外的溢出页中，用20字节存储指向溢出页的地址，从而可以找到剩余溢出数据所在的页
 :::
 
-11.   **MySQL的InnoDB与MyISAM引擎优缺点对比？**
+11.   **MySQL 的 InnoDB 与 MyISAM 引擎优缺点对比？**
 ::: info Answer
   -   事务支持：InnoDB 支持事务，MyISAM 不支持事务
 

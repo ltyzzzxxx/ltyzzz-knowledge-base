@@ -73,6 +73,12 @@ export default sidebar({
       collapsible: true,
       link: "work-experience",
     },
+    {
+      text: "八股文复习经验分享",
+      icon: "book",
+      collapsible: true,
+      link: "bagu-experience"
+    }
   ],
   "/projects/gpt-terminal": [
     {

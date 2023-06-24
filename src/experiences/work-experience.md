@@ -1,6 +1,5 @@
 ---
 title: 在字节工作一个月，我总结了 10 条心得与体会。
-icon: book
 toc: true
 ---
 

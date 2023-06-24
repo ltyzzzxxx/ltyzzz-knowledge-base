@@ -1,6 +1,5 @@
 ---
 title: 成功入职字节！分享一些 Idea！
-icon: book
 toc: true
 ---
 
