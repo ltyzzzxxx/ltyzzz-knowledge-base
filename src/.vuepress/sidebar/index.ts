@@ -59,6 +59,16 @@ export default sidebar({
       prefix: "message-queue/",
       children: [],
     },
+    {
+      text: "📖 RPC 问答",
+      collapsible: true,
+      prefix: "rpc/",
+      children: [
+        "RPC 基本概念", 
+        "RPC 实现方案", 
+        "RPC 其他问题", 
+      ],
+    }
   ],
   "/experiences/": [
     {
