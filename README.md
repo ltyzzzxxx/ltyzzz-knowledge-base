@@ -16,6 +16,10 @@
 
 - [如何借助于 OpenAI 以命令的方式在 GPT 终端上画一只 “坤”？](/projects/gpt-terminal/gpt-terminal-7)
 
+- [不满足当 ChatGPT “接口侠”？轻松可视化 Fine-tuning 训练你的模型！](/projects/gpt-terminal/gpt-terminal-8)
+
+- [耗时一下午，我终于上线了我的 GPT 终端！（内含详细部署方案记录）](/projects/gpt-terminal/gpt-terminal-9)
+
 
 ## 📦 经验分享专栏
 
@@ -24,6 +28,10 @@
 - [在字节工作一个月，我总结了 10 条心得与体会。](/projects/gpt-terminal/work-experience)
 
 - [应届生想要入职大厂，应该如何准备八股文？方法论分享！](/projects/gpt-terminal/bagu-experience)
+
+- [如何从 0 到 1 落地你的第一个开源项目？破局分享！](/projects/gpt-terminal/opensource-experience)
+
+- [深夜，我被自己 "rm -rf" 删库了...](/projects/gpt-terminal/rmrf-experience)
 
 
 ## 🏃 每日一学 - 行动指南

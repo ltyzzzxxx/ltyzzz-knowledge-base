@@ -88,6 +88,18 @@ export default sidebar({
       icon: "book",
       collapsible: true,
       link: "bagu-experience"
+    },
+    {
+      text: "开源经验分享",
+      icon: "book",
+      collapsible: true,
+      link: "opensource-experience"
+    },
+    {
+      text: "删库经验分享",
+      icon: "book",
+      collapsible: true,
+      link: "rmrf-experience"
     }
   ],
   "/projects/gpt-terminal": [
@@ -131,6 +143,16 @@ export default sidebar({
       collapsible: true,
       link: "gpt-terminal-7",
     },
+    {
+      text: "8. 不满足当 ChatGPT “接口侠”？轻松可视化 Fine-tuning 训练你的模型！",
+      collapsible: true,
+      link: "gpt-terminal-8",
+    },
+    {
+      text: "9. 耗时一下午，我终于上线了我的 GPT 终端！（内含详细部署方案记录）",
+      collapsible: true,
+      link: "gpt-terminal-9",
+    }
   ],
   "/learning-everyday": [
     {
