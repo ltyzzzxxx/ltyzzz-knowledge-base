@@ -34,25 +34,26 @@ highlights:
         details: 面试前自查一些问题～
         link: /qa-column
 
-      - title: 学习笔记
-        icon: blog
-        details: 记录学习时的点点滴滴～
-        link: /learning-notes
+      # - title: 学习笔记
+      #   icon: blog
+      #   details: 记录学习时的点点滴滴～
+      #   link: /learning-notes
 
-      - title: 每月一读
-        icon: book
-        details: 同我一起坚持每月读一本书～
-        link: /reading-everymonth
+      # - title: 每月一读
+      #   icon: book
+      #   details: 同我一起坚持每月读一本书～
+      #   link: /reading-everymonth
+
+      - title: 经验分享
+        icon: share
+        details: 留下我的经验，与你分享～
+        link: /experiences
 
       - title: 书单推荐
         icon: list
         details: 分享一些好书～
         link: /book-recommendations
 
-      - title: 经验分享
-        icon: share
-        details: 留下我的经验，与你分享～
-        link: /experiences
 
 copyright: false
 footer: Apache 协议, 版权所有 © 2023-present 周三不Coding
@@ -84,19 +85,34 @@ footer: Apache 协议, 版权所有 © 2023-present 周三不Coding
 
 :::
 
+### 🚀 **微服务专栏**
+
+::: info 专栏
+
+- [从根儿上学习微服务01：微服务的“前世今生”](/knowledge-column/microservice/microservice-1)
+
+- [从根儿上学习微服务02：如何划分微服务？](/knowledge-column/microservice/microservice-2)
+
+- [从根儿上学习微服务03：关于微服务技术，你需要掌握什么？](/knowledge-column/microservice/microservice-3)
+
+:::
+
+
 ### 📦 **经验分享专栏**
 
 ::: info 专栏
 
-- [成功入职字节！分享一些 Idea！](/projects/gpt-terminal/interview-experience)
+- [成功入职字节！分享一些 Idea！](https://knowledge-base.cn/experiences/interview-experience.html)
 
-- [在字节工作一个月，我总结了 10 条心得与体会。](/projects/gpt-terminal/work-experience)
+- [在字节工作一个月，我总结了 10 条心得与体会。](https://knowledge-base.cn/experiences/work-experience.html)
 
-- [应届生想要入职大厂，应该如何准备八股文？方法论分享！](/projects/gpt-terminal/bagu-experience)
+- [应届生想要入职大厂，应该如何准备八股文？方法论分享！](https://knowledge-base.cn/experiences/bagu-experience.html)
 
-- [如何从 0 到 1 落地你的第一个开源项目？破局分享！](/projects/gpt-terminal/opensource-experience)
+- [如何从 0 到 1 落地你的第一个开源项目？破局分享！](https://knowledge-base.cn/experiences/opensource-experience.html)
 
-- [深夜，我被自己 "rm -rf" 删库了...](/projects/gpt-terminal/rmrf-experience)
+- [深夜，我被自己 "rm -rf" 删库了...](https://knowledge-base.cn/experiences/rmrf-experience.html)
+
+- [写博客一个月，我收获了什么？给你 3 条为什么要坚持写技术博客的理由！](https://knowledge-base.cn/experiences/blog-experience.html)
 
 :::
 

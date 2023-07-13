@@ -11,11 +11,11 @@ export default navbar([
     icon: "question",
     link: "/qa-column",
   },
-  {
-    text: "学习笔记",
-    icon: "blog",
-    link: "/learning-notes"
-  },
+  // {
+  //   text: "学习笔记",
+  //   icon: "blog",
+  //   link: "/learning-notes"
+  // },
   {
     text: "书单推荐",
     icon: "list",
@@ -25,6 +25,19 @@ export default navbar([
     text: "经验分享",
     icon: "share",
     link: "/experiences"
+  },
+  {
+    text: "🚀 知识专栏",
+    children: [
+      {
+        text: "微服务专栏",
+        link: "/knowledge-column/microservice",
+      },
+      {
+        text: "ChatGPT 专栏",
+        link: "/knowledge-column/chatgpt"
+      }
+    ]
   },
   {
     text: "🔥 项目实战",
@@ -40,9 +53,9 @@ export default navbar([
     icon: "clipboard-check",
     link: "/learning-everyday"
   },
-  {
-    text: "每月一读",
-    icon: "book",
-    link: "/reading-everymonth"
-  }
+  // {
+  //   text: "每月一读",
+  //   icon: "book",
+  //   link: "/reading-everymonth"
+  // }
 ]);

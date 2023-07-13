@@ -72,34 +72,58 @@ export default sidebar({
   ],
   "/experiences/": [
     {
-      text: "面试经验分享",
-      icon: "book",
+      text: "成功入职字节！分享一些 Idea！",
       collapsible: true,
       link: "interview-experience",
     },
     {
-      text: "工作经验分享",
-      icon: "book",
+      text: "在字节工作一个月，我总结了 10 条心得与体会。",
       collapsible: true,
       link: "work-experience",
     },
     {
-      text: "八股文复习经验分享",
-      icon: "book",
+      text: "应届生想要入职大厂，应该如何准备八股文？方法论分享！",
       collapsible: true,
       link: "bagu-experience"
     },
     {
-      text: "开源经验分享",
-      icon: "book",
+      text: "如何从 0 到 1 落地你的第一个开源项目？破局分享！",
       collapsible: true,
       link: "opensource-experience"
     },
     {
-      text: "删库经验分享",
-      icon: "book",
+      text: "深夜，我被自己 ”rm -rf“ 删库了...",
       collapsible: true,
       link: "rmrf-experience"
+    },
+    {
+      text: "写博客一个月，我收获了什么？",
+      collapsible: true,
+      link: "blog-experience"
+    }
+  ],
+  "/knowledge-column/microservice": [
+    {
+      text: "从根儿上学习微服务01：微服务的“前世今生”",
+      collapsible: true,
+      link: "microservice-1",
+    },
+    {
+      text: "从根儿上学习微服务02：如何划分微服务？",
+      collapsible: true,
+      link: "microservice-2",
+    },
+    {
+      text: "从根儿上学习微服务03：关于微服务技术，你需要掌握什么？",
+      collapsible: true,
+      link: "microservice-3",
+    },
+  ],
+  "/knowledge-column/chatgpt": [
+    {
+      text: "1. 秋招临近，如何巧用 ChatGPT 帮你金九银十斩获各路大厂 Offer？",
+      collapsible: true,
+      link: "chatgpt-1",
     }
   ],
   "/projects/gpt-terminal": [
